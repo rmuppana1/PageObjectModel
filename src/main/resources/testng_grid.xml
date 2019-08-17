@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GRID SAMPLE TEST" parallel="tests" thread-count="3">
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER Chrome">
+    <parameter name ="browserName" value="chrome"/>
+        <classes>
+            <class name ="com.crm.qa.testcases.GridTest"/>
+        </classes>
+    </test>
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER FF">
+    <parameter name ="browserName" value="firefox"/>
+        <classes>
+            <class name ="com.crm.qa.testcases.GridTest"/>
+        </classes>
+    </test>
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER IE">
+    <parameter name ="browserName" value="IE"/>
+        <classes>
+            <class name ="com.crm.qa.testcases.GridTest"/>
+        </classes>
+    </test>
+</suite>

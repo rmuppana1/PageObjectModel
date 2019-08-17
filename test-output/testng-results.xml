@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GRID SAMPLE TEST" duration-ms="14572" started-at="2019-08-17T15:23:47Z" finished-at="2019-08-17T15:24:02Z">
+    <groups>
+    </groups>
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER IE" duration-ms="9035" started-at="2019-08-17T15:23:47Z" finished-at="2019-08-17T15:23:57Z">
+      <class name="com.crm.qa.testcases.GridTest">
+        <test-method status="PASS" signature="mailTest(java.lang.String)[pri:0, instance:com.crm.qa.testcases.GridTest@5622fdf]" name="mailTest" duration-ms="8998" started-at="2019-08-17T20:53:47Z" finished-at="2019-08-17T20:53:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailTest -->
+      </class> <!-- com.crm.qa.testcases.GridTest -->
+    </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER IE -->
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER Chrome" duration-ms="10580" started-at="2019-08-17T15:23:47Z" finished-at="2019-08-17T15:23:58Z">
+      <class name="com.crm.qa.testcases.GridTest">
+        <test-method status="PASS" signature="mailTest(java.lang.String)[pri:0, instance:com.crm.qa.testcases.GridTest@2b98378d]" name="mailTest" duration-ms="10543" started-at="2019-08-17T20:53:47Z" finished-at="2019-08-17T20:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailTest -->
+      </class> <!-- com.crm.qa.testcases.GridTest -->
+    </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER Chrome -->
+    <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER FF" duration-ms="14572" started-at="2019-08-17T15:23:47Z" finished-at="2019-08-17T15:24:02Z">
+      <class name="com.crm.qa.testcases.GridTest">
+        <test-method status="PASS" signature="mailTest(java.lang.String)[pri:0, instance:com.crm.qa.testcases.GridTest@604ed9f0]" name="mailTest" duration-ms="14537" started-at="2019-08-17T20:53:47Z" finished-at="2019-08-17T20:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailTest -->
+      </class> <!-- com.crm.qa.testcases.GridTest -->
+    </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER FF -->
+  </suite> <!-- GRID SAMPLE TEST -->
+</testng-results>

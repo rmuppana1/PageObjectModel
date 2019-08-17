@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [GRID SAMPLE TEST]" parallel="tests">
+  <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER IE(failed)" parallel="tests">
+    <parameter name="browserName" value="IE"/>
+    <classes>
+      <class name="com.crm.qa.testcases.GridTest">
+        <methods>
+          <include name="mailTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.GridTest -->
+    </classes>
+  </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER IE(failed) -->
+  <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER FF(failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.crm.qa.testcases.GridTest">
+        <methods>
+          <include name="mailTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.GridTest -->
+    </classes>
+  </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER FF(failed) -->
+  <test name="GRID TEST WITH SERIAL EXECTION WITH BROWSER Chrome(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.crm.qa.testcases.GridTest">
+        <methods>
+          <include name="mailTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.GridTest -->
+    </classes>
+  </test> <!-- GRID TEST WITH SERIAL EXECTION WITH BROWSER Chrome(failed) -->
+</suite> <!-- Failed suite [GRID SAMPLE TEST] -->
